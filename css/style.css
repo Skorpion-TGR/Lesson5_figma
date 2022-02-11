@@ -16,7 +16,9 @@ body{
 
 .article{
    max-width: 810px;
-   margin: 190px 0 0 345px;
+   margin: 0 auto;
+   padding: 190px 0 0 0;
+   /* margin: 190px 0 0 345px; */
 }
 
 .post-header{
@@ -45,7 +47,7 @@ img{
 
 p{
    line-height: 26px;
-   padding: 0 0 24px 0;
+   /* margin: 0 0 24px 0; */
 }
 
 .vulputate{
@@ -53,42 +55,54 @@ p{
    font-weight: 700;
    line-height: 30px;
    color: #1E212C;
+   margin: 0 0 24px 0;
 }
 
-/* .at{ */
-   /* line-height: 26px; */
-/* } */
+.at{
+   margin: 0 0 48px 0;
+}
 
 .at-first{
    margin: 0 0 16px 0;
 }
 
-/* .at-second{} */
+/* .at-second{
+} */
 
 .lorem{
    font-size: 20px;
    font-weight: 700;
    line-height: 30px;
    color: #1E212C;
-   margin: 24px 0 24px 58px;
+   margin: 0 0 48px 0;
+   /* padding: 24px 0 24px 58px; */
 }
 
-/* .lorem-text{} */
+.lorem-text{
+   padding: 0 0 0 58px;
+}
 
-/* .mauris{ */
-   /* line-height: 26px; */
-/* } */
+.mauris{
+   margin: 0 0 24px 0;
+}
 
 .list{
-   margin: 0 0 0 32px;
+   margin: 0 0 24px 0;
 }
 
-/* .list-line{} */
+/* .list li{
+} */
 
-/* .list-line-text{} */
+.list-line{
+   padding: 0 0 0 32px;
+}
 
-.list-line-textup{
-   margin: -20px 0 -20px 0;
+.list-line-text{
+   margin: 0 0 4px 0;
+}
+
+.list-line-textlast{
+   margin: 0;
 }
 
 .enim{
